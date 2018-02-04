@@ -15,5 +15,12 @@ Object.defineProperty(Object.prototype,
     }
 );
 
-var p = Object.extend();
-console.log(p);
+var  p ={
+    x:1,
+    y:'sss'
+};
+ var q ={};
+ q.extend(p);
+console.log(q.x);
+console.log(q.y);
+
