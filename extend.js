@@ -16,3 +16,4 @@ Object.defineProperty(Object.prototype,
 );
 
 var p = Object.extend();
+console.log(p);
