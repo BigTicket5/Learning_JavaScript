@@ -1,4 +1,7 @@
 "use strict";
+function test(){
+    return 1;
+}
 function flexisum(a){
     var total = 0;
     for(var i =0;i<arguments.length;i++){
@@ -18,6 +21,6 @@ function flexisum(a){
 }
 
 var a1 = [1,3,4,7,8];
-console.log(flexisum(a1));
-var a2 = [1,[1,1,1],[1,[1,1,1],1,[1,[1,1,1]]]];
-console.log(flexisum(a2));
+// console.log(flexisum(a1));
+//var a2 = [1,[1,1,1],[1,[1,1,1],1,[1,[1,1,1]]],flexisum(a1)];
+console.log(flexisum(1,flexisum));
