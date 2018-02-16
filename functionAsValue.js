@@ -17,3 +17,12 @@ var k = operate("pow",10,2);
 
 console.log(i);
 console.log(k);
+
+function constfuncs(){
+    var funcs = [];
+    for(var i=0;i<10;i++) funcs[i] = function(){return i;};
+    return funcs;
+}
+
+var funcs = constfuncs();
+console.log(funcs[5]());
